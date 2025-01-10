@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import ActivityGallery from "../Components/ActivityGallery";
 import Banner from "../Components/Banner";
 import Brighter from "../Components/Brighter";
+import ContactMe from "../Components/ContactMe";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import VolunteerNeedsNow from "../Components/VolunteerNeedsNow";
@@ -28,6 +29,9 @@ const HomeLayout = () => {
         </section>
         <section>
           <ActivityGallery />
+        </section>
+        <section>
+          <ContactMe />
         </section>
       </main>
       {/* footer */}
