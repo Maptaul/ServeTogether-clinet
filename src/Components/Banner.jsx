@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div>
       {/* Carousel */}
-      <div className="carousel rounded-lg w-full relative h-[600px]">
+      <div className="carousel rounded-lg w-full relative h-[500px]">
         {/* Slide 1 (Previously Slide 2) */}
         <div id="item1" className="carousel-item relative w-full">
           <img

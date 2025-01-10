@@ -46,13 +46,13 @@ const VolunteerNeedsNow = () => {
               direction={index % 2 === 0 ? "left" : "right"}
               triggerOnce
             >
-              <div className="card bg-base-200 shadow-md rounded-md overflow-hidden">
+              <div className="card h-96 bg-base-200 shadow-md rounded-md overflow-hidden">
                 <img
                   src={need.thumbnail}
                   alt={need.title}
                   className="w-full h-48 object-cover"
                 />
-                <div className="p-4">
+                <div className="p-4 ">
                   <h3 className="text-xl font-semibold mb-2">{need.title}</h3>
                   <p className="text-sm text-gray-600 mb-2">
                     Category:{" "}
